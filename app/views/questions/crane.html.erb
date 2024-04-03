@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8">
+  <div class="title">
+  The Quest of Q
+  </div>
+</head>
+
+<h2>
+  <div class='q'>
+    <%= image_tag"Q19.png",class:"Q" %>
+  </div>
+
+  <div class='form'>
+      <div class ='formset'>
+        <%=form_tag 'check19', method: :get do %>
+        <%= text_field_tag :input_19 ,nil, class:'answerbox' %>
+      </div>
+      <div class ='formset'>
+        <%=submit_tag '回答', class:'botton1' %>
+        <% end %>
+      </div>
+  </div>
+  
+<h2> 
