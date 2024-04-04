@@ -469,7 +469,7 @@ class QuestionsController < ApplicationController
     end
 
     def check41
-        if  params[:input_41] == 'オールナイトニッポン'
+        if  params[:input_41] == 'おーるないとにっぽん'
             redirect_to :action =>'grief'
         else
             redirect_to :action =>'plonk'
