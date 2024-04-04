@@ -174,7 +174,7 @@ Rails.application.routes.draw do
   get'questions/felony' => 'questions#felony'
   get'questions/airbus' => 'questions#airbus'
   get'questions/mature' => 'questions#mature'
-  get'questions/priset' => 'questions#priset'
+  get'questions/amidist' => 'questions#amidist'
   get'questions/athwart' => 'questions#athwart'
   get'questions/debunk' => 'questions#debunk'
   get'questions/casket' => 'questions#casket'
