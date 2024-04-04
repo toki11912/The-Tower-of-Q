@@ -960,20 +960,20 @@ class QuestionsController < ApplicationController
 
     def check85
         if  params[:input_85] == 'たいよう'
-            redirect_to :action =>'wilted'
+            redirect_to :action =>'blazer'
         else
             redirect_to :action =>'creamy'
         end
     end
 
-    def wilted
+    def blazer
     end
 
     def check86
         if  params[:input_86] == 'さらんらっぷ'
             redirect_to :action =>'flight'
         else
-            redirect_to :action =>'wilted'
+            redirect_to :action =>'balazer'
         end
     end
 
