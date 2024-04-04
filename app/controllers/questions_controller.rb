@@ -569,13 +569,13 @@ class QuestionsController < ApplicationController
 
     def check50
         if  params[:input_50] == 'もなりざ'
-            redirect_to :action =>'mid2nd'
+            redirect_to :action =>'mid2'
         else
             redirect_to :action =>'heavy'
         end
     end
 
-    def mid2nd
+    def mid2
     end
 
     def abaft
