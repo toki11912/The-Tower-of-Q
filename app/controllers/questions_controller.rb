@@ -86,7 +86,7 @@ class QuestionsController < ApplicationController
     def check7
         input7 = params[:input_7]
         keyword7 ='みずすまし'
-        if  input7 == keywordtwo
+        if  input7 == keyword7
             redirect_to :action =>'eight'
         else
             redirect_to :action =>'seven'
