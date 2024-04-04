@@ -183,7 +183,7 @@ Rails.application.routes.draw do
   get'questions/fondly' => 'questions#fondly'
   get'questions/famtom' => 'questions#famtom'
   get'questions/distil' => 'questions#distil'
-  get'questions/pritty' => 'questions#pritty'
+  get'questions/embark' => 'questions#embark'
   get'questions/fathon' => 'questions#fathon'
   get'questions/invite' => 'questions#invite'
   get'questions/grouch' => 'questions#grouch'
