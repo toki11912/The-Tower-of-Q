@@ -188,7 +188,7 @@ Rails.application.routes.draw do
   get'questions/invite' => 'questions#invite'
   get'questions/grouch' => 'questions#grouch'
   get'questions/creamy' => 'questions#creamy'
-  get'questions/wilted' => 'questions#wilted'
+  get'questions/blazer' => 'questions#blazer'
   get'questions/flight' => 'questions#flight'
   get'questions/crenze' => 'questions#crenze'
   get'questions/ephyra' => 'questions#ephyra'
