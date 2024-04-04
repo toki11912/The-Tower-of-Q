@@ -260,7 +260,7 @@ class QuestionsController < ApplicationController
         if  params[:input_22] == 'ろんぐこーとだでぃ'
             redirect_to :action =>'rerun'
         else
-            redirect_to :action =>'loose'
+            redirect_to :action =>'leave'
         end
     end
 
