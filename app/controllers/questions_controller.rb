@@ -747,7 +747,7 @@ class QuestionsController < ApplicationController
     end
 
     def check66
-        if  params[:input_66] == 'degital'
+        if  params[:input_66] == 'digital'
             redirect_to :action =>'indeed'
         else
             redirect_to :action =>'eaglet'
