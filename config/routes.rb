@@ -151,7 +151,7 @@ Rails.application.routes.draw do
   get'questions/ramie' => 'questions#ramie'
   get'questions/durian' => 'questions#durian'
   get'questions/heavy' => 'questions#heavy'
-  get'questions/mid2nd' => 'questions#mid2nd'
+  get'questions/mid2' => 'questions#mid2'
   get'questions/abaft' => 'questions#abaft'
   get'questions/ratio' => 'questions#ratio'
   get'questions/prior' => 'questions#prior'
