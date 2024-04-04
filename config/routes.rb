@@ -195,7 +195,7 @@ Rails.application.routes.draw do
   get'questions/frugal' => 'questions#frugal'
   get'questions/happen' => 'questions#happen'
   get'questions/beyond' => 'questions#beyond'
-  get'questions/remote' => 'questions#remote'
+  get'questions/blazon' => 'questions#blazon'
   get'questions/dearly' => 'questions#dearly'
   get'questions/cousin' => 'questions#cousin'
   get'questions/adsorb' => 'questions#adsorb'
