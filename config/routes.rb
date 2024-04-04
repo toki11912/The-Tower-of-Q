@@ -200,7 +200,7 @@ Rails.application.routes.draw do
   get'questions/cousin' => 'questions#cousin'
   get'questions/adsorb' => 'questions#adsorb'
   get'questions/boohoo' => 'questions#boohoo'
-  get'questions/ringed' => 'questions#ringed'
+  get'questions/chikin' => 'questions#chikin'
   get'questions/acent' => 'questions#acent'
   get'questions/gentle' => 'questions#gentle'
   get'questions/finisher' => 'questions#finisher'
