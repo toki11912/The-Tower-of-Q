@@ -258,20 +258,20 @@ class QuestionsController < ApplicationController
 
     def check22
         if  params[:input_22] == 'ろんぐこーとだでぃ'
-            redirect_to :action =>'retrun'
+            redirect_to :action =>'return'
         else
             redirect_to :action =>'leave'
         end
     end
 
-    def retrun
+    def return
     end
 
     def check23
         if  params[:input_23] == 'さーふごー'
             redirect_to :action =>'yowza'
         else
-            redirect_to :action =>'retrun'
+            redirect_to :action =>'return'
         end
     end
 
