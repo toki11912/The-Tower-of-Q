@@ -10,14 +10,4 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2024_01_11_114728) do
 
-  create_table "questions", force: :cascade do |t|
-    t.string "image"
-    t.string "answer"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.string "try"
-  end
-
-end
