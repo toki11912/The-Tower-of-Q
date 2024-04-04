@@ -1003,7 +1003,7 @@ class QuestionsController < ApplicationController
     end
 
     def check89
-        if  params[:input_89] == 'きゅうべい'
+        if  params[:input_89] == 'きゅぅべえ'
             redirect_to :action =>'frugal'
         else
             redirect_to :action =>'ephyra'
