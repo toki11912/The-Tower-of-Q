@@ -157,7 +157,7 @@ Rails.application.routes.draw do
   get'questions/prior' => 'questions#prior'
   get'questions/midst' => 'questions#midst'
   get'questions/curvy' => 'questions#curvy'
-  get'questions/daily' => 'questions#daily'
+  get'questions/dairy' => 'questions#dairy'
   get'questions/fabric' => 'questions#fabric'
   get'questions/before' => 'questions#before'
   get'questions/except' => 'questions#except'
