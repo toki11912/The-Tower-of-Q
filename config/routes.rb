@@ -122,7 +122,7 @@ Rails.application.routes.draw do
   get'questions/shyly' => 'questions#shyly'
   get'questions/loose' => 'questions#loose'
   get'questions/leave' => 'questions#leave'
-  get'questions/retrun' => 'questions#retrun'
+  get'questions/return' => 'questions#return'
   get'questions/yowza' => 'questions#yowza'
   get'questions/dirty' => 'questions#dirty'
   get'questions/mid1' => 'questions#mid1'
