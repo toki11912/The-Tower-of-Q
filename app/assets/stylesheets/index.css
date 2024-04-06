@@ -66,6 +66,7 @@ head{
 .link_form{
     max-width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .set{
@@ -80,4 +81,7 @@ head{
     text-align:center;
 }
 
+.link_X{
+    text-align: center;
+}
 
