@@ -761,7 +761,7 @@ class QuestionsController < ApplicationController
         if  params[:input_67] == 'will'
             redirect_to :action =>'dendou'
         else
-            redirect_to :action =>'friend'
+            redirect_to :action =>'indeed'
         end
     end
 
