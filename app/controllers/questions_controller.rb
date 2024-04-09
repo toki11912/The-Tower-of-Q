@@ -973,7 +973,7 @@ class QuestionsController < ApplicationController
         if  params[:input_86] == 'さらんらっぷ'
             redirect_to :action =>'flight'
         else
-            redirect_to :action =>'balazer'
+            redirect_to :action =>'blazer'
         end
     end
 
