@@ -450,7 +450,7 @@ class QuestionsController < ApplicationController
         if  params[:input_39] == 'あやたか'
             redirect_to :action =>'often'
         else
-            redirect_to :action =>'dully'
+            redirect_to :action =>'fully'
         end
     end
 
